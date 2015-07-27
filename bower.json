@@ -1,0 +1,24 @@
+{
+  "name": "f-animecode",
+  "version": "0.0.0",
+  "dependencies": {
+    "bootstrap": "^3.2.0",
+    "fontawesome": "~4.3.0",
+    "bxslider-4": "https://github.com/stevenwanderski/bxslider-4.git#~4.2.5",
+    "bl-jquery-image-center": "https://github.com/boxlight/bl-jquery-image-center.git#~1.0.4"
+  },
+  "devDependencies": {
+
+  },
+  "appPath": "app",
+  "moduleName": "fAnimecodeApp",
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}

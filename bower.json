@@ -5,11 +5,10 @@
     "bootstrap": "^3.2.0",
     "fontawesome": "~4.3.0",
     "bxslider-4": "https://github.com/stevenwanderski/bxslider-4.git#~4.2.5",
-    "bl-jquery-image-center": "https://github.com/boxlight/bl-jquery-image-center.git#~1.0.4"
+    "bl-jquery-image-center": "https://github.com/boxlight/bl-jquery-image-center.git#~1.0.4",
+    "waves": "~0.7.2"
   },
-  "devDependencies": {
-
-  },
+  "devDependencies": {},
   "appPath": "app",
   "moduleName": "fAnimecodeApp",
   "overrides": {

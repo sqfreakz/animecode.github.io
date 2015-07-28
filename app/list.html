@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+		<!-- build:css(.) styles/vendor.css -->
+		<!-- bower:css -->
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
+		<link rel="stylesheet" href="bower_components/bxslider-4/dist/jquery.bxslider.css" />
+		<link rel="stylesheet" href="bower_components/waves/dist/waves.min.css" />
+		<!-- endbower -->
+		<!-- endbuild -->
+		<!-- build:css(.tmp) styles/main.css -->
+		<link rel="stylesheet" href="styles/main.css">
+		<!-- endbuild -->
+	</head>
+	<body ng-app="animecodeApp">
+		<nav id="nav" class="navbar navbar-ac">
+			<div class="container">
+				<!--Start a container-->
+				<div class="navbar navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active">
+							<a href="/">Home</a>
+						</li>
+						<li class="dropdown">
+							<a href="#/dropdown" class="dropdown-toggle" data-toggle="dropdown">Dropdown
+								<i class="fa fa-angle-down"></i>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"><h5><i class="fa fa-briefcase"></i>&nbsp;&nbsp;Action</h5></a>
+								</li>
+								<li>
+									<a href="#"><h5><i class="fa fa-list-ul"></i>&nbsp;&nbsp;Action</h5></a>
+								</li>
+								<li>
+									<a href="#"><h5><i class="fa fa-magic"></i>&nbsp;&nbsp;Action</h5></a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="list.html">List</a>
+						</li>
+						<li>
+							<a href="#/list">Release Date</a>
+						</li>
+						<li>
+							<a href="#/">XDCC</a>
+						</li>
+						<li>
+							<a href="#/">18+</a>
+						</li>
+						<li>
+							<a href="#search">
+								<i class="fa fa-search"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--End of container-->
+		</nav>
+		<div class="container lol-container">
+			<div class="row">
+				<!--Row-->
+				<div class="col-md-12">
+					<h4>Search Terms</h4>
+					<div class="col-md-8">
+						<input type="search" name="" id="input" class="form-search" value="" required="required" title="">
+					</div>
+					<div class="col-md-4">
+						<a class="btn-search" href="#">
+							<i class="fa fa-search"></i>&nbsp;Search Now
+						</a>
+					</div>
+					<div class="col-md-12">
+					<div class="button-group clean">
+						<a class="btn-search button-dropdown" href="#" data-toggle="dropdown">
+						<i class="fa fa-film"></i>&nbsp;Resolution Video&nbsp;<i class="fa fa-caret-down"></i>
+						</a>
+						<ul class="dropdown-menu clean">
+							<li><a href="#">720p</a></li>
+							<li><a href="#">480p</a></li>
+							<li><a href="#">360p</a></li>
+							<li><a href="#">3gp</a></li>
+						</ul>
+					</div>
+					<div class="button-group clean">
+						<a class="btn-search button-dropdown" href="#" data-toggle="dropdown">
+						<i class="fa fa-film"></i>&nbsp;Sort by Genreee&nbsp;<i class="fa fa-caret-down"></i>
+						</a>
+						<ul class="dropdown-menu clean">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Comedy</a></li>
+							<li><a href="#">Ecchi</a></li>
+							<li><a href="#">Hentai</a></li>
+						</ul>
+					</div>
+					<div class="button-group clean">
+						<a class="btn-search button-dropdown" href="#" data-toggle="dropdown">
+						<i class="fa fa-film"></i>&nbsp;Rating MyAnimelist&nbsp;<i class="fa fa-caret-down"></i>
+						</a>
+						<ul class="dropdown-menu clean">
+							<li><a href="#">6++</a></li>
+							<li><a href="#">7++</a></li>
+							<li><a href="#">8++</a></li>
+							<li><a href="#">9++</a></li>
+						</ul>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container lol-container">
+
+		</div>
+		<!-- End of Row-->
+	</div>
+</body>
+<footer class="footer">
+	<div class="footer-content">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col col-md-3 col-sm-4">
+					<div class="footer-col-inner">
+						<h3>About</h3>
+						<ul>
+							<li>
+								<a href="#">
+									<i class="fa fa-caret-right"></i>&nbsp;API
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-caret-right"></i>&nbsp;About us
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-caret-right"></i>&nbsp;Contact us
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-caret-right"></i>&nbsp;Privacy policy
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-caret-right"></i>&nbsp;Terms &amp; Conditions
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="search">
+		<button class="close">×</button>
+		<form>
+			<input type="search" value="" placeholder="Type query here ..." />
+			<button type="submit" class="btn btn-danger"><i class="fa fa-search"></i>&nbsp;Search</button>
+		</form>
+	</div>
+	<div class="footer-col col-md-12">
+		<div class="footer-char"></div>
+	</div>
+	<div class="bottom-bar">
+		<div class="container">
+			<div class="row">
+				<small class="copyright col-md-6 col-sm-12 col-xs-12">Created with ♥ by
+				<a href="#">Animecode</a>
+				</small>
+				<ul class="social pull-right col-md-6 col-sm-12 col-xs-12">
+					<li>
+						<a href="#">
+							<i class="fa fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa fa-facebook"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa fa-google-plus"></i>
+						</a>
+					</li>
+					<li class="row-end">
+						<a href="#">
+							<i class="fa fa-instagram"></i>
+						</a>
+					</li>
+					<li class="row-end">
+						<a href="#">
+							<i class="fa fa-rss"></i>
+						</a>
+					</li>
+				</ul>
+				<!--//social-->
+			</div>
+			<!--//row-->
+		</div>
+		<!--//container-->
+	</div>
+	<!--//bottom-bar-->
+</footer>
+<!-- build:js(.) scripts/vendor.js -->
+<!-- bower:js -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/bxslider-4/dist/jquery.bxslider.js"></script>
+<script src="bower_components/waves/dist/waves.min.js"></script>
+<script src="bower_components/bl-jquery-image-center/js/jquery.blImageCenter.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+<!-- build:js({.tmp,app}) scripts/scripts.js -->
+<script src="scripts/app.js"></script>
+<!-- endbuild -->
+</html>

@@ -1,6 +1,6 @@
 'use strict';
 
-Waves.attach('.flat-box', ['waves-block']);
+Waves.attach('.btn-search', ['waves-block']);
 
 $(document).ready(function(){
   $('.bxslider').bxSlider({
